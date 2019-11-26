@@ -1,0 +1,158 @@
+/* font-family: 'Patrick Hand', cursive;
+font-family: 'Baloo', cursive;
+font-family: 'Chewy', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Raleway Dots', cursive; */
+
+/* header固定 */
+#header {
+    position: fixed;
+    width: 100%;
+    margin-top: -70px;
+    z-index: 100;
+  }
+
+#margin-for-fixed {
+    margin-top: 70px;
+  }
+img{
+    height: 50px;
+    width: 50px;
+}
+
+/* header編集 */
+header{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+}
+.icon{
+     position: absolute;
+     top: 25px;
+     left: 20px;
+     height: 50px;
+     width: 100px;
+}
+.header-right{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    padding: 0;
+}
+
+il:hover{
+        opacity: 0.5;
+}
+
+
+.header-right>il{
+    margin-left: 10px;
+    /* border-radius: 50%; */
+}
+
+
+/* main1編集 */
+.welcome{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway Dots', cursive; 
+    background-image: url(../img/peonies-3468740_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 30px;
+    position: relative;
+    top:280px;
+}
+
+.message{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 480px;
+    left: 500px;
+}
+
+
+/* main2編集 */
+.contents{
+    height: 600px;
+    /* background-color: lightyellow; */
+    background-image: url(../img/valentine-3929127_1920.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h2{
+    font-size: 50px;
+    position: relative;
+    top: 20px;
+    font-family: 'Raleway Dots', cursive; 
+}
+
+.items{
+
+}
+
+
+/* aside編集 */
+aside{
+    height: 200px;
+    background-color: lavender;
+    text-align: center;
+}
+
+h3{
+/* font-family: 'Patrick Hand', cursive; */
+font-family: 'Raleway Dots', cursive; 
+font-size: 40px;
+}
+
+.form{
+    text-align: center;
+}
+.id {
+    margin: 25px 0 10px;
+  }
+
+.btn {
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+ .log-in {
+    background-color: rgba(193, 144, 240, 0.884);
+    border: 3px solid rgba(193, 144, 240, 0.884);
+    margin-right: 15px;
+  }
+  
+  .log-in:hover {
+    opacity: 0.5;
+  } 
+  .register {
+    background-color: rgba(29, 224, 104, 0.322);
+    border: 3px solid rgba(29, 224, 104, 0.322);
+  }
+  
+  .register:hover {
+    opacity: 0.5;
+  }
+  
+  /* スマホ */
+@media screen and (max-width:480px) {
+    .welcome{
+        background-image: url(../img/bathroom-sink-3940726_1920.jpg);
+    }
+}
